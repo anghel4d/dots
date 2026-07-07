@@ -1,0 +1,39 @@
+# ~/.gitignore — whitelist dotfiles (repo rooted at $HOME).
+# Strategy per rgbcu.be/blog/gitignore: ignore everything, then re-include by name.
+# Nothing is tracked unless a line below explicitly allows it, so credentials and
+# machine state can never sneak in. Directory must be un-ignored before its contents.
+
+# --- ignore all ---
+*
+
+# --- meta ---
+!.gitignore
+!.gitmodules
+
+# --- home rc ---
+!.bashrc
+!.profile
+!.tmux.conf
+!.gitconfig
+
+# --- submodules (own repos; gitlinks only, contents managed by the submodule) ---
+!nixos-config
+!.config/
+!.config/nvim
+
+# --- ~/.config, per tool (dir first, then contents) ---
+!.config/btop/
+!.config/btop/**
+!.config/nix/
+!.config/nix/**
+!.config/nushell/
+!.config/nushell/config.nu
+!.config/nushell/env.nu
+
+# --- ~/.claude: config only; secrets/transcripts/caches stay ignored by `*` ---
+!.claude/
+!.claude/skills/
+!.claude/skills/**
+!.claude/themes/
+!.claude/themes/**
+!.claude/settings.json

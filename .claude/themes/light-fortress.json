@@ -1,0 +1,24 @@
+{
+  "name": "light-fortress",
+  "base": "light-ansi",
+  "overrides": {
+    "subtle": "rgb(90,80,56)",
+    "inactive": "rgb(90,80,56)",
+    "inverseText": "rgb(28,26,21)",
+    "warning": "ansi:yellowBright",
+    "warningShimmer": "ansi:yellowBright",
+    "selectionBg": "rgb(210,198,168)",
+    "diffAdded": "rgb(202,219,190)",
+    "diffRemoved": "rgb(232,208,200)",
+    "diffAddedDimmed": "rgb(219,227,209)",
+    "diffRemovedDimmed": "rgb(240,224,219)",
+    "diffAddedWord": "rgb(47,157,68)",
+    "diffRemovedWord": "rgb(209,69,75)",
+    "rate_limit_empty": "rgb(196,186,160)",
+    "userMessageBackground": "rgb(175,175,135)",
+    "userMessageBackgroundHover": "rgb(192,156,112)",
+    "composerSidebarBackground": "rgb(224,216,196)",
+    "memoryBackgroundColor": "rgb(228,214,220)",
+    "bashMessageBackgroundColor": "rgb(243,237,221)"
+  }
+}

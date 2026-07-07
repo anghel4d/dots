@@ -1,0 +1,5 @@
+{
+  "name": "modified-dark-ansi",
+  "base": "dark-ansi",
+  "overrides": {}
+}

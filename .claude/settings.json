@@ -1,0 +1,11 @@
+{
+  "model": "opus",
+  "effortLevel": "xhigh",
+  "tui": "fullscreen",
+  "skipWorkflowUsageWarning": true,
+  "theme": "custom:light-fortress",
+  "editorMode": "normal",
+  "verbose": false,
+  "preferredNotifChannel": "iterm2_with_bell",
+  "switchModelsOnFlag": false
+}

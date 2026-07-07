@@ -1,0 +1,25 @@
+{
+  "name": "dark-fortress",
+  "base": "dark-ansi",
+  "overrides": {
+    "text": "ansi:white",
+    "subtle": "ansi:blackBright",
+    "inactive": "ansi:blackBright",
+    "rate_limit_empty": "ansi:blackBright",
+    "permission": "ansi:cyanBright",
+    "permissionShimmer": "ansi:cyanBright",
+    "claudeBlue_FOR_SYSTEM_SPINNER": "ansi:redBright",
+    "claudeBlueShimmer_FOR_SYSTEM_SPINNER": "ansi:redBright",
+    "suggestion": "ansi:cyanBright",
+    "remember": "ansi:cyanBright",
+    "briefLabelYou": "ansi:cyanBright",
+    "ide": "ansi:cyanBright",
+    "blue_FOR_SUBAGENTS_ONLY": "ansi:cyanBright",
+    "selectionBg": "rgb(58,58,58)",
+    "bashMessageBackgroundColor": "rgb(20,20,20)",
+    "userMessageBackground": "rgb(28,28,30)",
+    "userMessageBackgroundHover": "rgb(42,42,46)",
+    "composerSidebarBackground": "rgb(22,22,24)",
+    "memoryBackgroundColor": "rgb(30,20,30)"
+  }
+}

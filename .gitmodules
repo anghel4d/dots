@@ -1,0 +1,8 @@
+[submodule "nixos-config"]
+	path = nixos-config
+	url = https://github.com/anghel4d/nixos-config.git
+	branch = main
+[submodule "nvim"]
+	path = .config/nvim
+	url = https://github.com/anghel4d/nvim.git
+	branch = main

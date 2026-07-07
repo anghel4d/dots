@@ -1,0 +1,7 @@
+{
+  "name": "Light-Fortress (ANSI)",
+  "base": "light-ansi",
+  "overrides": {
+    "text": "ansi:white"
+  }
+}
