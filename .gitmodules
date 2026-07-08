@@ -6,3 +6,7 @@
 	path = .config/nvim
 	url = https://github.com/anghel4d/nvim.git
 	branch = main
+[submodule "darwin"]
+	path = darwin
+	url = https://github.com/anghel4d/darwin.git
+	branch = main

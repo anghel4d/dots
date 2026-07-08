@@ -20,6 +20,8 @@
 !nixos-config
 !.config/
 !.config/nvim
+# darwin: Matei3dMac platform configs — separate repo so it clones/pins independently
+!darwin
 
 # --- ~/.config, per tool (dir first, then contents) ---
 !.config/btop/
