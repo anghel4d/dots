@@ -11,10 +11,9 @@
 !.gitmodules
 
 # --- home rc ---
-!.bashrc
-!.profile
-!.tmux.conf
-!.gitconfig
+# Migrated to home-manager: ~/.bashrc, ~/.profile, ~/.tmux.conf and git config are
+# now deployed as /nix/store symlinks by nixos-config (home/ layer stack). They are
+# no longer tracked here — the flake is their single source of truth.
 
 # --- submodules (own repos; gitlinks only, contents managed by the submodule) ---
 !nixos-config
@@ -23,14 +22,11 @@
 # darwin: Matei3dMac platform configs — separate repo so it clones/pins independently
 !darwin
 
-# --- ~/.config, per tool (dir first, then contents) ---
-!.config/btop/
-!.config/btop/**
-!.config/nix/
-!.config/nix/**
-!.config/nushell/
-!.config/nushell/config.nu
-!.config/nushell/env.nu
+# --- ~/.config, per tool ---
+# btop, nix and nushell configs are home-manager-managed now (see nixos-config's
+# home/common.nix and home/linux.nix); left ignored so their store symlinks and
+# *.hm-bak backups don't get tracked. Add new per-tool entries here only for
+# configs NOT owned by home-manager.
 
 # --- ~/.claude: config only; secrets/transcripts/caches stay ignored by `*` ---
 !.claude/
