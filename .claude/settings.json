@@ -1,5 +1,19 @@
 {
-  "model": "opus",
+  "env": {
+    "CLAUDE_CODE_RETRY_WATCHDOG": "1"
+  },
+  "attribution": {
+    "commit": "",
+    "pr": "",
+    "sessionUrl": false
+  },
+  "permissions": {
+    "allow": []
+  },
+  "model": "fable",
+  "enabledPlugins": {
+    "rust-analyzer-lsp@claude-plugins-official": true
+  },
   "effortLevel": "xhigh",
   "tui": "fullscreen",
   "skipWorkflowUsageWarning": true,
@@ -7,5 +21,8 @@
   "editorMode": "normal",
   "verbose": false,
   "preferredNotifChannel": "iterm2_with_bell",
-  "switchModelsOnFlag": false
+  "switchModelsOnFlag": false,
+  "remoteControlAtStartup": true,
+  "inputNeededNotifEnabled": true,
+  "agentPushNotifEnabled": true
 }
